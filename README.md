@@ -4,7 +4,8 @@
 
 We will be building an API for the purpose of accessing application data programmatically. The intention here is to mimic the building of a real world backend service (such as reddit) which should provide this information to the front end architecture.
 
-Your database will be PSQL, and you will interact with it using [node-postgres](https://node-postgres.com/).
+Your database will be PSQL, and you will interact with it using [node-postgres]. After obtaining the repository, install jest and any other dependencies needed. To set up Environment Variables create two files ".env.test" and ".env.development". place the following into each respective file with you database information( insert `PGDATABASE=data_base_name;` and insert `PGDATABASE=data_base_name_test;`)
+
 
 ## Kanban
 
